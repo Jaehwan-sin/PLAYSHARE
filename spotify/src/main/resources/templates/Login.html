@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="../static/css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="center_parent">
+        <h2 class="center_text">원하는<br>플레이리스트를<br>감상하세요</h2>
+    </div>
+
+    <div th:if="${error}" class="error-message">
+        <p id="error" th:text="${error}"></p>
+    </div>
+
+    <form action="/user/login" method="post">
+        <div class="login">
+            <div class="email">이메일 주소</div>
+            <div class="circle">
+                <input type="text" class="email-input" name="email" placeholder="이메일을 입력하세요">
+            </div>
+            <div class="password">비밀번호</div>
+            <div class="circle">
+                <input type="password" class="email-input" name="password">
+            </div>
+        </div>
+        <div class="circle_2">
+            <div class="next"><button type="submit">로그인</button></div>
+        </div>
+    </form>
+
+    <div class="final_text">
+        <div class="bold">계정이 없으신가요?</div>
+        <a href="/user/new">회원가입 후 이용해보세요.</a>
+    </div>
+
+</body>
+
+<script>
+    // 에러 메시지가 존재하면 alert 창 표시
+    var errorMessage = $('#error').val() || '';
+    if (errorMessage) {
+        alert(errorMessage);
+    }
+</script>
+
+
+
+
+</html>

@@ -1,0 +1,46 @@
+.header {
+        font-family: "Apple SD Gothic Neo", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 32px;
+        padding: 10px 0px;
+        color: black;
+    }
+
+    .logo {
+        font-size: 32px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 24px;
+        list-style: none;
+        margin: 0;
+    }
+
+    .menu li {
+        margin-left: 20px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu-right {
+        margin-left: auto;
+        display: flex; /* 추가 */
+    }
+
+    .menu-right a {
+        margin-left: 20px; /* 각 메뉴 간 간격 조절 */
+    }
+
+    /* 로그인 상태에 따른 메뉴 색상 변경 */
+    .menu-right a:hover {
+        color: #007bff; /* 원하는 hover 색상으로 변경 */
+    }

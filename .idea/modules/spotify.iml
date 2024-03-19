@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="spotify" external.linked.project.path="$MODULE_DIR$/../../spotify" external.root.project.path="$MODULE_DIR$/../../spotify" external.system.id="GRADLE" external.system.module.group="com.tech" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../spotify">
+      <excludeFolder url="file://$MODULE_DIR$/../../spotify/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../spotify/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../spotify/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="7a03687a-00f1-486d-8024-b7275e4a26ff" />
+  </component>
+</module>

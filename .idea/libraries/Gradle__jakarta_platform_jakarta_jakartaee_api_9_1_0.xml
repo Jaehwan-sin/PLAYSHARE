@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.platform:jakarta.jakartaee-api:9.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="jakarta.platform" artifactId="jakarta.jakartaee-api" version="9.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.platform/jakarta.jakartaee-api/9.1.0/9904a2846bf266940e0e0b58b7b3d13e28756fa0/jakarta.jakartaee-api-9.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.platform/jakarta.jakartaee-api/9.1.0/e7b390b2b257a1fd2d8a2dd575630bc6269e29f8/jakarta.jakartaee-api-9.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
