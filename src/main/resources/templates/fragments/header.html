@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div th:fragment="header">
+    <nav class="header">
+        <div class="logo">
+            <a th:href="@{/main}" href="/main">PLAYSHARE</a>
+        </div>
+        <div class="menu menu-right">
+            <!-- 로그인 상태에 따라 메뉴를 동적으로 변경 -->
+            <div th:if="${isLoggedIn}">
+                <a th:href="@{/user/playlist}" href="/user/playlist">PLAYLIST</a>
+                <a th:href="@{/My_Page/My_profile}" href="/My_Page/My_profile">MY PAGE</a>
+                <a th:href="@{/user/logout}" href="/user/logout">LOGOUT</a>
+            </div>
+            <div th:unless="${isLoggedIn}">
+                <a th:href="@{/user/new}" href="/user/new">SIGN IN</a>
+                <a th:href="@{/user/login}" href="/user/login">LOGIN</a>
+            </div>
+        </div>
+    </nav>
+</div>
+</body>
+</html>
